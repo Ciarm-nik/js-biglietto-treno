@@ -17,7 +17,15 @@ if (età < 18) {
     var prezzo = chilometri * biglietto;
     //Stampo il risultato
     console.log(prezzo);
+} else if (età > 65) {
+      //applico uno sconto del 65%
+      var prezzo = chilometri * biglietto;
+      var risultato = prezzo - prezzo*0.4;
+      //Stampo il risultato 
+      console.log(risultato);
 }
+  
+
 
 
 
